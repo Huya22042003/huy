@@ -1,0 +1,111 @@
+
+
+@media only screen and (min-width:1024px){
+    
+}
+
+@media only screen and(min-width: 768px)and (max-width:1023px){
+
+}
+
+
+@media only screen and (max-width:767px){
+
+    #header{
+        overflow: hidden;
+    }
+    .nohidden {
+        height:270px;
+    }
+    .menu{
+        display: block;
+        position: fixed;
+        z-index: 0;
+        top:0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.61);
+    }
+    #search {
+        display: none;
+    } 
+    #nav {
+        display: block;
+    
+    }
+    .a {
+        display: block;
+
+    }
+    #nav li {
+        display: block;
+    }
+    .avata {
+        margin: 70px 0 32px 0;
+        float: none;
+        width: auto;
+    }
+    .form-content {
+        height: 100%;
+        background-color: #fff;
+        width: 800px;
+        max-width: 100%;
+    }
+    .img-img {
+        margin-top: 25px;
+        /* float: left; */
+        width: auto;
+        padding: 25px 8px;
+        /* margin-left: 16px; */
+        margin: 0 15px;
+    }
+    .modal-small {
+        width: 800px;
+        /* height: 500px; */
+        background-color: #fff;
+        position: relative;
+        max-width: 90%;
+        height: auto;
+    }
+    .background-black {
+        background-color: #000 !important;
+        padding-bottom: 109px;
+        height: 1633px;
+    }
+    .map {
+        margin-top: 101px;
+        /* height: 30%; */
+        /* padding-top: 100px; */
+        filter: grayscale(50%);
+    }
+    .address-my {
+        /* display: block; */
+        /* float: left; */
+        /* text-align: center; */
+        float: none;
+        margin-left: 69px;
+    }
+    .address-mail {
+        /* display: block; */
+        /* float: right; */
+        /* width: 50%; */
+        font-size: 20px;
+        font-weight: 700;
+        width: auto;
+        float: none;
+        margin-left: 12px;
+    }
+    input.haha {
+        margin: 3px -2px;
+        max-width: 100%;
+        margin-bottom: 21px;
+    }
+    #nav .subnav {
+        position: initial;
+        box-shadow: 0 0 10px rgb(0 0 0 / 51%);
+        display: none;
+        
+    }
+    #nav .subnav a {
+        padding-left: 18px;
+    }
+}
